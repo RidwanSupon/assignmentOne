@@ -113,7 +113,7 @@ main{
     background:  linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%),url(/images/gradient1.png),url(/images/watch.png);
     width: 100%;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     border-radius: 8px;
     /* background-blend-mode: multiply; */
 
@@ -129,7 +129,7 @@ main{
 }
 /* foot section */
 footer{
-    padding: 50px 250px;
+    padding: 50px 200px;
     background-color: #151414;
 }
 .footer-container{
@@ -157,6 +157,7 @@ footer{
     display: block;
 }
 .footer-container .email-input{
+    width: 350px;
     background-color: #151414;
     color: #fff;
     padding: 20px;
